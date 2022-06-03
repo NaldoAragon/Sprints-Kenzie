@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Evento Kenzie</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome</label><br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..." required/><br>
+
+        <label for="email">E-mail</label><br>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail aqui..." required/><br>
+
+        <label for="descricao">Descrição</label><br>
+        <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Escreva o que motivou você a fazer o curso..." required></textarea><br>
+
+        <label for="moduloAtual">Módulo Atual na Kenzie</label><br>
+        <select name="moduloAtual" id="moduloAtual">
+            <option value="">Escolha o Módulo</option>
+            <option value="modulo1">Módulo 1</option>
+            <option value="modulo2">Módulo 2</option>
+            <option value="modulo3">Módulo 3</option>
+            <option value="modulo4">Módulo 4</option>
+            <option value="modulo5">Módulo 5</option>
+            <option value="modulo6">Módulo 6</option>
+        </select><br>
+
+        <label for="senha">Senha</label><br>
+        <input type="password" name="senha" id="senha" minlength="8" maxlength="20" required/><br>
+
+        <label for="confirmarSenha">Confirme sua Senha</label><br>
+        <input type="password" name="senha" id="senha" minlength="8" maxlength="20" required/><br>
+
+        <p>Deseja receber as novidades da Kenzie?</p>
+            <label for="sim">Sim</label>
+            <input type="radio" value="newsletter" name="newsletter" id="sim" checked/>
+            <label for="nao">Não</label>
+            <input type="radio" value="newsletter" name="newsletter" id="nao"/><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
