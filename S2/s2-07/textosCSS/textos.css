@@ -1,0 +1,31 @@
+.content-main{
+    max-width: 428px;
+}
+
+.title-1{
+    font-size: 42px;
+    line-height: 52px;
+    color: #3745bd;
+    font-weight: 600;
+}
+
+.paragraph-1{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+#vermelha{
+    background-color: red; 
+    color: white;
+}
+#laranja{
+    color: orange;
+}
+#container{
+    background-color: blueviolet;
+    color: wheat;
+}
+#container > p {
+    color: orange;
+  }

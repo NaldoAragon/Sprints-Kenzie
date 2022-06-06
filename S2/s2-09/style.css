@@ -1,0 +1,172 @@
+h1 {
+        /* Kenzie Academy Brasil */
+
+
+    position: absolute;
+    width: 371px;
+    height: 48px;
+    left: 409px;
+    top: 32px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+small{
+        /* NOSSO FOCO É TRANSFORMAR VIDAS! */
+
+
+    position: absolute;
+    width: 293px;
+    height: 33px;
+    left: 16px;
+    top: 128px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+
+    color: #000000;
+
+}
+
+h2{
+        /* Se torne uma pessoa desenvolvedora em 1 ano */
+
+
+    position: absolute;
+    width: 767px;
+    height: 48px;
+    left: 16px;
+    top: 187px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+#p1{
+        /* A Kenzie Academy começou em 2017, nos Estados Unidos, e chegou ao Brasil em 2019 com o objetivo de formar profissionais completos para ingressarem no mercado de tecnologia rapidamente. Tudo isso sem mensalidade e com alta qualidade de ensino. */
+
+
+    width: 1140px;
+    height: 160px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+#h-2{
+        /* Programas oferecidos */
+
+
+    position: absolute;
+    width: 361px;
+    height: 48px;
+    left: 16px;
+    top: 624px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+#lista-1{
+        /* Software Engineering UX Engineering Digital Marketing */
+
+
+    position: absolute;
+    width: 247px;
+    height: 123px;
+    left: 16px;
+    top: 698px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 200% */
+
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+#p-3{
+        /* Frame 5 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+
+    position: absolute;
+    width: 1156px;
+    height: 56px;
+    left: 16px;
+    top: 862px;
+
+    background: #000000;
+
+}
+
+.title-main{
+
+}
+
+.color-blue{
+
+}
+.background-blue{
+    background-color: blue;
+    color: white;
+}
+.background-black{
+    background-color: black;
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
