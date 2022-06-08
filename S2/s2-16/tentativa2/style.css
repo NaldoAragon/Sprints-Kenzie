@@ -5,8 +5,44 @@
     box-sizing: border-box;
 }
 body{
-    margin: ;
-    padding: ;
-    border: ;
-    font-family:;
+    font-family: 'Inter';
+}
+.caixa{
+    background-color: #f5f0f0;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto 0px;
+    padding: 50px;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.1) ;
+    border-radius: 8px;
+}
+h1{
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+button{
+    background-color: #1971C2;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #1864AB;
+}
+form > div{
+    margin: 15px;
+}
+label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
 }
