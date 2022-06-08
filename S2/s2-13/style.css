@@ -1,0 +1,30 @@
+/* Percentual(%): Você deseja que um elemento filho tenha 10% da largura do pai como margem para que nunca preencha todo o elemento pai. Se o tamanho do pai mudar, a margem também será atualizada. */
+.filho {
+    margin: 10%;
+    }   
+
+/* em: Você deseja que a fonte de um elemento filho tenha metade do tamanho da fonte de seu pai(por exemplo, o parágrafo sob o título de uma seção). */
+.filho {
+    font-size: 0.5em;
+    }
+
+/* rem: O tamanho da fonte deve ser o do tamanho da fonte do elemento raiz. Pode ser assim que você dimensiona seus cabeçalhos, porque todos eles devem ter o mesmo tamanho, independentemente do contêiner pai. */
+header {
+    font-size: 2rem;
+}
+/* vh: Sua página deve sempre ter a altura da janela de visualização. */
+body {
+    height: 100vh;
+    }
+/* vw: Você tem uma seção com texto que deve ter a metade da largura da janela de visualização. */
+section {
+    width: 50vw;
+    }
+/* vmin: Você tem uma imagem que deve ser sempre tão larga quanto a menor dimensão da janela de visualização. Em um dispositivo móvel no modo retrato, a imagem será tão ampla quanto a largura da janela de visualização. */
+img {
+    width: 100vmin;
+    }
+/* vmax: Você não se importa se uma imagem for cortada porque você deseja que ela preencha completamente a dimensão maior da janela de visualização. Por exemplo, se a imagem de um padrão for usada como plano de fundo. */
+img {
+    width: 100vmax;
+    }

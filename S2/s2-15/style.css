@@ -1,0 +1,28 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }
+  
+.box:hover {
+    background-color: green;
+  }
+  
+.input {
+    height: 30px;
+    padding-left: 20px;
+    border: 2px solid transparent;
+}
+.input:focus {
+    border-color: green;
+}
+.button {
+    height: 30px;
+    width: 70px;
+    margin-left: 10px;
+    border: 2px solid transparent;
+}
+.button:focus {
+    border-color: green;
+}
+  
