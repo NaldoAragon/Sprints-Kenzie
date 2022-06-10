@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Flexbox</title>
+    <style>
+        
+    div{
+        display: flex;
+        /*Torna o elemento um flex container
+        automaticamente transformando todos
+        os seus filhos diretos em flex itens.*/
+        }
+    div{
+        flex-direction:row;
+        /* Os itens ficam em linha, exemplo: 1, 2, 3*/
+        
+        flex-direction: row-reverse;
+        /*Os itens ficam em linha reversa, ou seja: 3, 2, 1*/
+        
+        flex-direction: column;
+        /*Os itens ficam em uma única coluna, um embaixo do outro. Exemplo: 1 no topo, 2 no meio e 3 embaixo*/
+        
+        flex-direction: column-reverse;
+        /*Os itens ficam em uma única coluna, um embaixo do outro, porém em ordem reversa. Exemplo: 3 no topo, 2 no meio e 1 embaixo*/
+        }    
+    div{
+        flex-wrap: nowrap;
+        /*Valor padrão, não permite a quebra de linha.*/
+        
+        flex-wrap: wrap;
+        /* Quebra a linha assim que um dos flex itens não puder mais ser compactado.*/
+        
+        flex-wrap: wrap-reverse;
+        /* Quebra a linha assim que um dos flex itens não puder mais ser compactado.
+        A quebra é na direção contrária, ou seja para a linha acima.*/
+        }
+    div{
+        flex-flow: row nowrap;
+        /*Coloca o conteúdo em linha e não permite a quebra de linha.*/
+        
+        flex-flow: row wrap;
+        /*Coloca o conteúdo em linha e permite a quebra de linha.*/
+        
+        flex-flow: column nowrap;
+        /*Coloca o conteúdo em coluna e não permite a quebra de linha.*/
+        }
+    div{
+        justify-content: flex-start;
+        /*Alinha os itens ao início do container.*/
+        
+        justify-content: flex-end;
+        /*Alinha os itens ao final do container.*/
+        
+        justify-content: center;
+        /*Alinha os itens ao centro do container.*/
+        
+        justify-content: space-between;
+        /*Cria um espaçamento igual entre os elementos.
+        Mantendo o primeiro grudado no início e o último no final.*/
+        
+        justify-content: space-around;
+        /*Cria um espaçamento entre os elementos.
+        Os espaçamentos do meio são duas vezes maiores que o inicial e final.*/
+        }
+    div{
+        align-items: stretch;
+        /*Valor padrão, ele que faz com que os flex itens cresçam igualmente.*/
+        
+        align-items: flex-start;
+        /*Alinha os itens ao início.*/
+        
+        align-items: flex-end;
+        /*Alinha os itens ao final.*/
+        
+        align-items: center;
+        /*Alinha os itens ao centro.*/
+        
+        align-items: baseline;
+        /*Alinha os itens de acordo com a linha base da tipografia.*/
+    }             
+        
+        .container{
+            display: flex;
+            justify-content: space-around;}
+        .box{
+            height: 150px;
+            width: 150px;
+            border: 1px solid black;}
+        .red{
+            background-color: red;}
+        .blue{
+            background-color: blue;}
+        .yellow{
+            background-color: yellow;}
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box red"></div>
+        <div class="box blue"></div>
+        <div class="box yellow"></div>
+    </div>
+</body>
+</html>
