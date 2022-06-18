@@ -5,21 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>container</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="container.css">
 </head>
 <body>
-    <main class="container">
-        <article class="post">
-            <header class="post-header">  
-              <img src="./img/cover.jpg" 
-              alt="Imagem contendo um notbook com algumas linhas de código" 
-              title="Imagem contendo um notbook com algumas linhas de código" 
-              class="post-cover" />
-              <h1 class="post-title">Primeira aula sobre HTML e CSS, como aprender de forma mais eficiente</h1>
-            </header>
-            <div class="post-content">
-              <p class="post-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure?</p>
-            </div>
-         </article>
-    </main>
+
+  <nav class="menu">
+    <ul class="container">
+      <li><a href="#">Notícias</a></li>
+      <li><a href="#">Programação</a></li>
+      <li><a href="#">Linguagens</a></li>
+      <li><a href="#">Curiosidades</a></li>
+    </ul>
+  </nav>
+
+  <div class="pesquisa container">
+    <input type="text" name="text" id="text" placeholder="Pesquisar por..."/>
+    <button type="submit">Pesquisar</button>
+  </div>
+
+  <main class="container">
+    <article class="post">
+
+      <header class="post-header"> 
+
+        <img src="imgs/cover.jpg" alt="Imagem contendo um notbook com algumas linhas de código" title="Imagem contendo um notbook com algumas linhas de código" class="m-b" />
+
+        <h1 class="m-b">Primeira aula sobre HTML e CSS, como aprender de forma mais eficiente</h1>
+
+      </header>
+
+      <div class="m-b">
+        <p class="p-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus natus harum officiis similique eveniet deleniti nihil a. Ullam ut consequuntur explicabo voluptatibus temporibus praesentium dolorum in, magnam enim nisi iure?</p>
+      </div>
+
+      <div class="m-b">
+        <p class="p-2"><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae unde minus delectus necessitatibus sapiente consequuntur laudantium. Incidunt unde perspiciatis nulla, nesciunt atque maxime mollitia itaque libero culpa odit earum? Aspernatur.</em></p>
+      </div>
+
+      <div class="caixa-outras-noticias">
+        <ul>
+          <li>
+            <img src="imgs/lastArticle1.jpg" alt="símbolo tags html">
+            <h2>CSS - Quais as melhores formas de acessar elementos?</h2>
+            <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="p-4"><a href="#">Leia notícia</a></p>
+
+          <li>
+            <img src="imgs/lastArticle2.jpg" alt="símbolo tags html">
+            <h2>CSS - Quais as melhores formas de acessar elementos?</h2>
+            <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="p-4"><a href="#">Leia notícia</a></p>
+          </li>
+          
+          <li>
+            <img src="imgs/lastArticle3.jpg" alt="símbolo tags html">
+            <h2>CSS - Quais as melhores formas de acessar elementos?</h2>
+            <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="p-4"><a href="#">Leia notícia</a></p>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </main>
+  <footer>
+    
+  </footer>
 </body>
 </html>

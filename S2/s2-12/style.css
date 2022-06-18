@@ -19,8 +19,9 @@ body{
     margin: 30px auto 0 auto;
     text-align: center;
     border: 2px solid #e2e2ec;
-    box-shadow: 0px 0px 50px -15px rgba(0, 0, 0, 0.09);
+    box-shadow: 3px 0px 50px -15px rgba(0, 0, 0, 0.09);
     border-radius: 8px;
+    background-color: #f0e9e9;
 }
 .cardPessoaImagem > img{
     border-radius: 50%;
@@ -42,4 +43,6 @@ body{
 .cardPessoaTextoDescrição{
     font-size: 20px;
     line-height: 32px;
+    text-align: justify;
+    margin-top: 40px;
 }

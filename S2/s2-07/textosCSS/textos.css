@@ -1,31 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 .content-main{
     max-width: 428px;
-}
+    margin-top: 35px;
+    margin-left: 26px;
+    font-family: 'Inter';
+  }
 
-.title-1{
+  .title-1{
     font-size: 42px;
     line-height: 52px;
-    color: #3745bd;
+    color: #3745BD;
+    width: 429px;
+    height: 156px;
     font-weight: 600;
 }
-
 .paragraph-1{
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
-}
-
-#vermelha{
-    background-color: red; 
-    color: white;
-}
-#laranja{
-    color: orange;
-}
-#container{
-    background-color: blueviolet;
-    color: wheat;
-}
-#container > p {
-    color: orange;
   }

@@ -5,18 +5,24 @@ body{
     font-family: 'Poppins';
 }
 .title-main{
-    /* Não sei o que colocar aqui */
+   margin-top: 32px;
 }
+small{
+    font-size: 20px;
+}
+
 .color-blue{
     color: #3662FF;
 }
 .background-blue{
     background-color: #3662FF;
     color: white;
+    line-height: 40px;
 }
 .background-black{
     background-color: black;
     color: white;
+    padding: 10px;
 }
 .text-center{
     text-align: center;

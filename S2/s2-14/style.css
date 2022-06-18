@@ -11,6 +11,7 @@ ul{
 }
 ul li{
   display: inline-block;
+  box-shadow: 2px gray;
 }
 ul li a{
   color: white;
@@ -23,3 +24,4 @@ ul li a{
   border: 10px;
 }
 /* tenho que usar color, background-color, padding, margin e border */
+
