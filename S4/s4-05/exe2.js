@@ -38,4 +38,8 @@ function convertToKelvin(valorTemp, tempAtual){
     }
   }
   
-  console.log(convertToCelsius (65, 'Fahrenheit'))
+  console.log(convertToCelsius (64.4, 'Fahrenheit'))
+  console.log(convertToKelvin (18, 'Celsius'))
+  console.log(convertToFahrenheit (291.15, 'Kelvin'))
+
+

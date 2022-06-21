@@ -6,3 +6,4 @@ function tocaBanjo (nome){
     }
 }
 console.log(tocaBanjo ('Amanda'));
+console.log(tocaBanjo ('Ronaldo'));
