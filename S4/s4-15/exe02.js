@@ -1,0 +1,1 @@
+soma([1, '4', 9, 18]) // resultado esperado = 32

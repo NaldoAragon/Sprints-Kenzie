@@ -1,14 +1,12 @@
+let tiposDiversos =[1.5,"String",true,10]
+n = 0
 
-let carrinhoDeCompras =
-[
- "Funko Pop Kakashi",
- "Dragon Ball Collection",
- "Vou ser Dev"
-]
-
-function testaPosicao(lista, posicao)
-  {
-    if (carrinhoDeCompras == "Vou ser Dev" && )
+function qualTipoDeElemento(lista, posicao) {
+     
+  while (tiposDiversos[n] == typeof(number)){
+    console.log(tiposDiversos[n]);
+    n++
   }
- 
-  testaPosicao(carrinhoDeCompras, 0)
+    }
+  qualTipoDeElemento(tiposDiversos[n], 1)
+
