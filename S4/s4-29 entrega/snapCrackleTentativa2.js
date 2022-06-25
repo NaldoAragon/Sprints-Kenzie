@@ -19,9 +19,9 @@ function snapCrackle (maxValue){
             resultado = 'Crackle'
         }
 
-        else if (c % 2 != 0 && c % 3 != 0 && c % 5 != 0){
+        else if (c % 2 !== 0 && c % 3 !== 0 && c % 5 !== 0){
 
-            resultado = 'SnapCracklePrime'
+            resultado = 'Primeme'
         }
 
         else {
@@ -30,6 +30,8 @@ function snapCrackle (maxValue){
         }
     }
     }
+ 
+
 
 snapCrackle (10)
 

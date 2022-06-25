@@ -1,31 +1,60 @@
-function snapCrackle (maxValue){
+function ehPrimo(num){
 
-    for (c = 1; c < maxValue; c++){
+    if(num === 2){
 
-        if (c % 2 != 0 && c % 3 != 0 && c % 5 != 0){
+        return true
+    }
+    if (num === 1){
+        
+        return false
+    }
 
-            console.log('SnapCracklePrime')
+    for(let c = 2; c < num; c++){
+
+       if(num % c === 0){
+
+        return false
+
+       }
+    } 
+    return true
+}
+
+function snapCrackle(maxValue){
+    
+    let numeros 
+
+    for (let c = 1; c <= maxValue; c++){
+
+    let resultado = ''
+
+        if (c % 2 === 0 && c % 5 !== 0 && c !== 2){
+
+            numeros.push(c)
         }
 
-        else if (c % 2 == 1 && c % 5 == 0) {
+        if (c % 2 !== 0){
 
-            console.log('SnapCrackle')
-        }
-
-        else if (c % 2 == 1){
-
-            console.log('Snap')
+            resultado += 'Snap'
         }
                 
-        else if (c % 5 == 0){
+        if (c % 5 === 0){
 
-            console.log('Crackle')
+            resultado += 'Crackle'
         }
 
-        else {
+        if (ehPrimo(c)){
 
-            console.log(c);
-        } } }
+            resultado += 'Prime'
+        }
 
-    snapCrackle (100)
+        if (resultado.length > 0){
+            numeros.push(resultado)
+        }
+        } return numeros
+        }
+
+snapCrackle(100)
+
+
 
