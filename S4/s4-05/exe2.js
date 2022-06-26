@@ -1,52 +1,49 @@
+function convertToCelsius(currentValue, currentType, previousType){
 
+    if (previousType == 'Celsius'){
 
-function convertTemperature (valorTemp, tempAtual, tempDesejada)
-
-    temp = tempDesejada //parei aki
-
-    if (tempDesejada == 'Celsius'){
-        // function convertToCelsius(valorTemp, tempAtual, tempDesejada){
-        if (tempAtual == 'Fahrenheit') {
-            return ((valorTemp - 32) * (5/9)).toFixed(2)
+        if (currentType == 'Fahrenheit') {
+            return ((currentValue - 32) * (5/9)).toFixed(2)
         }
-        else if (tempAtual == 'Kelvin') {
-            return (valorTemp - 273.15).toFixed(2)
+        else if (currentType == 'Kelvin') {
+            return (currentValue - 273.15).toFixed(2)
         }
-        else if (tempAtual == 'Celsius') {
+        else if (currentType == 'Celsius') {
             return 'Digite um tipo diferente do atual para ser convertido.'
         }
-    }
-    if (tempDesejada == 'Fahrenheit'){
-        // function convertToFahrenheit(valorTemp, tempAtual, tempDesejada){
-        if (tempAtual == 'Celsius') {
-            return (valorTemp * 9/5) + 32
+}}
+
+function convertToFahrenheit(currentValue, currentType, previousType){
+
+    if (previousType == 'Fahrenheit'){
+
+        if (currentType == 'Celsius') {
+            return (currentValue * 9/5) + 32
         }
-        else if (tempAtual == 'Kelvin') {
-            return (valorTemp - 273.15) * (9/5) + 32
+        else if (currentType == 'Kelvin') {
+            return (currentValue - 273.15) * (9/5) + 32
         }
-        else if (tempAtual == 'Fahrenheit') {
+        else if (currentType == 'Fahrenheit') {
             return 'Digite um tipo diferente do atual para ser convertido.'
         }
-    }
-    if (tempDesejada == 'Kelvin'){
-        // function convertToKelvin(valorTemp, tempAtual, tempDesejada){
-        if (tempAtual == 'Fahrenheit') {
-            return ((valorTemp - 32) * 5/9 + 273.15).toFixed(2)
+}}
+
+function convertToKelvin(currentValue, currentType, previousType){
+
+    if (previousType == 'Kelvin'){
+
+        if (currentType == 'Fahrenheit') {
+            return ((currentValue - 32) * 5/9 + 273.15).toFixed(2)
         }
-        else if (tempAtual == 'Celsius') {
-            return (valorTemp + 273.15).toFixed(2)
+        else if (currentType == 'Celsius') {
+            return (currentValue + 273.15).toFixed(2)
         } 
-        else if (tempAtual == 'Kelvin') {
+        else if (currentType == 'Kelvin') {
             return 'Digite um tipo diferente do atual para ser convertido.'
         }
-    }
-  
-convertTemperature(18, 'Celsius', 'Kelvin')
-convertTemperature(291.15, 'Kelvin', 'Fahrenheit')
-convertTemperature(64.4, 'Fahrenheit', 'Celsius')
+}}
 
-//   convertToKelvin (18, 'Celsius')
-//   convertToFahrenheit (291.15, 'Kelvin')
-//   convertToCelsius (64.4, 'Fahrenheit')
-
+console.log(convertToCelsius(64.4, 'Fahrenheit', 'Celsius'))
+console.log(convertToFahrenheit(291.15, 'Kelvin', 'Fahrenheit'))
+console.log(convertToKelvin(18, 'Celsius', 'Kelvin'))
 

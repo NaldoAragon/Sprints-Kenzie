@@ -22,14 +22,15 @@ function ehPrimo(num){
 
 function snapCrackle(maxValue){
     
-    let numeros 
+    let numeros = 0
 
     for (let c = 1; c <= maxValue; c++){
 
     let resultado = ''
 
         if (c % 2 === 0 && c % 5 !== 0 && c !== 2){
-
+            
+            numeros = numeros + // concatenar uma string de ', c'
             numeros.push(c)
         }
 

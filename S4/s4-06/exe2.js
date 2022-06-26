@@ -1,9 +1,12 @@
-function six_toast (quantTorradas){
-    if (quantTorradas > 6){
-        return 'Sobraram ' + (quantTorradas - 6) + ' torradas'
-    } else if (quantTorradas < 6){
-        return 'Faltam ' + (6 - quantTorradas) + ' torradas'
+function six_toast(num){
+
+    if (num >= 6){
+        return num - 6
+    } 
+    else if (num < 6){
+        return 6 - num
     }
 }
-console.log(six_toast (10));
-console.log(six_toast (3));
+six_toast(6)
+// console.log(six_toast (10));
+// console.log(six_toast (3));
