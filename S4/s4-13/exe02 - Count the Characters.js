@@ -24,10 +24,4 @@ function countChar(string, char) {
     }
   }
     return contador    
-  }
-
-
-  // console.log(letraMinuscula);
-
-// countChar("fizzbuzz","z") => 4
-// countChar("Fancy fifth fly aloof","f") => 5
+  }}
