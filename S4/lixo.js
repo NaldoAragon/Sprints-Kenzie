@@ -1,20 +1,58 @@
-function somarNumeros(n1, n2, n3, n4=0){
-    return n1 + n2 + n3 + n4
-    // console.log(somatotal)
+let arrayNumeros = [22, 24, 2, -4, -90, -50, 100, -10]
+
+function qualMaiorNumero(lista){
+
+    let maiorNumero = 0
+
+    for(i in lista){
+
+        if (lista[i] > maiorNumero){
+            maiorNumero = lista[i]
+        }
+    } 
+    console.log(maiorNumero);
 }
 
-let result1 = somarNumeros(2, 3, 4)
-let result2 = somarNumeros(5,7,9)
-let resultFam = somarNumeros(37, 28, 62, 64)
+qualMaiorNumero(arrayNumeros)
 
-// console.log(result1);
-// console.log(result2); 
-alert(`A soma da idade da família é ${resultFam}`)
+// function numeroNegativo (array){
+    
+//     let numerosNegativos = 0
+//     for (i in array){
+        
+//         if(array[i] < 0){
 
-function digaOla(){
-    return 'Olá!'
-}
-alert(digaOla())
+//             numerosNegativos = numerosNegativos + array[i]
+            
+//         }
+//     } console.log(numerosNegativos);
+// }
+// numeroNegativo(['oi', 2, -4, -90, -50, 1, -10])
+
+// function queroTexto(texto){
+
+//     return texto
+// }
+// queroTexto('Eu sou o texto requerido')
+
+
+// function somarNumeros(n1, n2, n3, n4=0){
+//     return n1 + n2 + n3 + n4
+//     // console.log(somatotal)
+// }
+
+// let result1 = somarNumeros(2, 3, 4)
+// let result2 = somarNumeros(5,7,9)
+// let resultFam = somarNumeros(37, 28, 62, 64)
+
+// // console.log(result1);
+// // console.log(result2); 
+// alert(`A soma da idade da família é ${resultFam}`)
+
+// function digaOla(){
+//     return 'Olá!'
+// }
+// alert(digaOla())
 
 // let listaDeNomes = []
 

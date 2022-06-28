@@ -1,10 +1,12 @@
 let atividadesDiarias = ['trabalhar', 'comer', 'estudar', 'dormir'];
 
-atividadesDiarias.pop()
+let elementoRemovido = atividadesDiarias.pop()
 atividadesDiarias.push('orar')
-atividadesDiarias.push('dormir')
-atividadesDiarias.shift()
+// atividadesDiarias.push('dormir')
+let elementoRemovido2 = atividadesDiarias.shift()
 
-console.log(atividadesDiarias );
+console.log(atividadesDiarias);
 console.log(atividadesDiarias.length);
+console.log(elementoRemovido);
+console.log(elementoRemovido2);
 

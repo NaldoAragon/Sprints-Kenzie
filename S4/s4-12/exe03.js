@@ -1,3 +1,0 @@
-function cookingTime(eggs) {
-    // TODO
-  }
