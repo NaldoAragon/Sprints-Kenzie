@@ -15,7 +15,7 @@
 // const tagSpan = document.createElement('span')
 // tagSpan.innerText='repetir e repetir'
 
-const tagMain = document.getElementById('root')
+const container = document.getElemsentById('root')
 
 const tagUl = document.createElement('ul')
 

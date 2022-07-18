@@ -1,0 +1,16 @@
+button{
+    width: 20%;
+    height: 30px;
+    border-radius: 8px; 
+    background-color: white;
+    color: black;
+
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 30px;
+    border-radius: 8px;
+}
